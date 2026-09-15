@@ -1,4 +1,9 @@
-# Projeto de Aprendizado Docker
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/08a3b97f-d46f-4c3b-966e-9d5b7409d029" alt="Docker Logo" width="300" />
+  
+  <h1>Projeto de aprendizado Docker</h1>
+</div>
+
 
 Este projeto demonstra boas práticas com Docker por meio de uma aplicação simples
 composta por multi-container, utilizando Docker Compose.
