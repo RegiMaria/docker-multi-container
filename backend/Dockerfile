@@ -1,11 +1,12 @@
-# Stage 1: Buidl stage
+# Stage 1: Build stage
 FROM python:3.12-slim as build
 
-WORKDIR/app
+WORKDIR /app
 
-COPY requirements.txt
+COPY requirements.txt .
 RUN pip install --no-cache-dir --user -r requirements.txt
-COPY ..
+
+COPY . .
 
 # Stage 2: Production stage
 FROM python:3.12-slim
